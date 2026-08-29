@@ -1,6 +1,9 @@
 ## Buscar palabra en la que estoy:
 - *
 
+## Buscar:
+- /
+
 ## Ir de palabra seleccionada a la siguiente:
 - Ctrl + n
 
@@ -11,7 +14,7 @@
 
 ## Buscar y reemplazar
 1. Buscar y reemplazar todo = :%s/<palabra>/<nueva_palabra>/g
-  - g implica global (cambiar en todos sitios)
+- g implica global (cambiar en todos sitios)
 2. Buscar y reemplazar pero preguntando cada vez = :%s/<palabra>/<nueva_palabra>/gc
   - c quiere decir preguntar una a una
   - se escoge si se hace en cada una con N y Y 
@@ -61,3 +64,28 @@
 
 ## Centrar pantalla verticalmente para tener cursor en medio:
 - zz
+
+## Seleccionar todo lo que hay entre un carácter en específico:
+- vi<caracter> = de dentro donde estás --> ejemplo paréntesis = vi() 
+- va<caracter>= de dentro donde estás  --> ejemplo paréntesis = vi() 
+
+## Autoidentar:
+- = + <tecla>
+  - = --> línea actual
+  - G hasta el final
+- gg=G --> autoidentar todo
+
+
+## Seleccionar todo el código contiguo:
+- <acción>ap --> ejemplo: yap
+
+## Sumar 1 al número donde estoy:
+- Ctrl + a
+- Ctrl + x
+- Si se usa un número antes del comando, se suma ese
+  - [TIP]: No hace falta estar encima del número, encuentra el siguiente para hacerlo.
+
+## Editar varias líneas a la vez:
+   1. - Ctrl + v --> selecciona la línea
+   2. - Se pasa a modo editar, se edita
+   3. - esc y se hace en todas las seleccionadas
