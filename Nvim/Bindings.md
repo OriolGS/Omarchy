@@ -1,3 +1,8 @@
+## Crear archivo/directorio:
+1.- :Sex --> abre tree
+2.- % --> crea archivo
+3.- d --> crea directorio
+
 ## Buscar palabra en la que estoy:
 - *
 
