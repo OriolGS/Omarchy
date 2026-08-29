@@ -25,8 +25,39 @@
 ## Eliminar letra en normal mode:
 - x
 
+## Escribir al inicio de la línea:
+- I
+
 ## Escribir al final de la línea:
 - A
 
+## Añadir línea y empezar a escribir:
+- o = línea abajo
+- O = línea arriba
+
+## Ir al inicio de la línea:
+- _ = Inicio escrito
+- 0 (zero) = caracter 0
+
 ## Ir al final de la línea:
 - $
+
+## Moverse a extremos del archivo:
+- :<num> = ir a línea en específico
+- G = ir al final
+- gg = ir al inicio
+
+## GOTO:
+- Siguiente caracter en específico = f + <caracter> --> f = forward
+- Anterior caracter en específico = F + <caracter> 
+
+### Recurso para borrar, copiar...
+- Eliminar hasta siguiente caracter en específico pero sin ese = dt + <caracter> 
+- Eliminar hasta anterior caracter en específico pero sin ese = dT + <caracter> 
+
+## Moverse en párrafos:
+- { = anterior
+- } = siguiente
+
+## Centrar pantalla verticalmente para tener cursor en medio:
+- zz
