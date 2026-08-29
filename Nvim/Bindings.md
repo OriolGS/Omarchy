@@ -72,7 +72,7 @@
 
 ## Seleccionar todo lo que hay entre un carácter en específico:
 - vi<caracter> = de dentro donde estás --> ejemplo paréntesis = vi() 
-- va<caracter>= de dentro donde estás  --> ejemplo paréntesis = vi() 
+- va<caracter>= de siguiente donde estás  --> ejemplo paréntesis = vi() 
 
 ## Autoidentar:
 - = + <tecla>
